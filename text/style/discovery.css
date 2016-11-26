@@ -1,0 +1,207 @@
+.logo{
+	float:left;
+	margin:48px 0px 9px 23px;
+}
+
+.logo button{
+	
+	width:123px;
+	height:57px;
+	font: 26px '微软雅黑'; 
+	
+	background-color: white;
+	border:2px solid #ff9344;
+	border-radius: 15px;
+}
+
+.center{
+	float:left;
+	font:26px '微软雅黑';
+	margin:60px 0 0 178px;
+}
+
+
+
+.city{
+	float:right;
+	width:158px;
+	height:54px;
+	border:2px solid #ff9344;
+	border-radius:2px;
+	margin:47px 21px 42px 0px;
+	position: relative;
+	overflow:hidden;
+}
+
+.city-bg{
+	position: absolute;
+	top: 20px;
+	left: 110px;
+	z-index: 1111;
+}
+
+.city_name{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	width:158px;
+	height:54px;
+	border:none;
+	font:26px '微软雅黑';
+	color:#000;
+	text-indent:15px;
+	-webkit-appearance: none;
+}
+
+
+.search{
+	float:left;
+	margin:51px 0 44px 212px;
+}
+
+.search input{
+	height:50px;
+	width:264px;
+	text-indent: 30px;
+	font:24px '微软雅黑';
+	border:2px solid #ff9344;
+	border-radius:50px;
+	background:url(../images/search.png) no-repeat 95% center;
+
+}
+
+.our h3{
+	font:26px '微软雅黑';
+	color: #000;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.list{
+	margin-left: 112px;
+}
+
+.list li{
+	float: left;
+	
+}
+
+.list li div{
+	width:123px;
+	height:64px;
+	font:20px '微软雅黑';
+	color: #898989;
+	text-align: center;
+	line-height: 64px;
+	background-color: #dcdcdc;
+	margin:0 6px 6px 0;
+}
+
+/*discount*/
+.discount-nav{
+	margin-top: 45px;
+	margin-left:21px;
+}
+
+.discount-nav li{
+	float:left;
+	height:54px;
+	font:30px/54px '微软雅黑';
+	color: #000;
+}
+
+.discount-nav li:nth-child(2){
+	text-indent:9px;
+}
+
+.discount-nav li:last-child{
+	float:right;
+}
+
+.more {
+	color:#000;
+	font:24px '微软雅黑';
+	background:url(../images/more.png) no-repeat right center;
+	padding-right:30px;
+	margin-right:21px;
+}
+
+.activity li{
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 6px;
+}
+
+.activity li:first-child{
+	margin-top: 40px;
+}
+
+.activity li:nth-child(2){
+	margin-top: 40px;
+}
+
+.lay li{
+	float: left;
+	margin-top: 40px;
+	margin-left: 23px;
+	margin-bottom: 170px;
+}
+
+
+
+
+/* nav */
+nav{
+	position: fixed;
+	bottom:0%;
+	background:#ffffff;
+	padding:10px 0;
+}
+nav a{
+	float:left;
+	text-align: center;
+	width:187px; 
+	font:26px '微软雅黑';
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

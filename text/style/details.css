@@ -1,0 +1,227 @@
+.logo{
+	float:left;
+	margin:48px 0px 9px 23px;
+}
+
+.logo button{
+	
+	width:123px;
+	height:57px;
+	font: 26px '微软雅黑'; 
+	
+	background-color: white;
+	border:2px solid #ff9344;
+	border-radius: 15px;
+}
+
+.center{
+	float:left;
+	font:26px '微软雅黑';
+	color: #000;
+	margin:60px 0 0 178px;
+}
+
+
+
+.pic{
+	float:right;
+	margin: 54px 23px 0 0;
+
+}
+
+
+
+
+/*banner*/
+
+.banner{
+	margin-top: 10px;
+	margin-left: 23px;
+}
+
+.buy div:first-child{
+	float: left;
+	font:72px '微软雅黑';
+	color: #ff9344;
+	margin: 32px 0 0 44px;
+}
+
+.buy div:nth-child(2) button{
+	float: right;
+	width: 108px;
+	height:59px;
+	font: 30px '微软雅黑';
+	color: white;
+	border: 2px solid #ff9344;
+	border-radius: 18px;
+	background-color: #ff9344;
+	margin:37px 39px 0 0;
+}
+
+/*discount*/
+
+.discount li:first-child{
+	float: left;
+	margin: 50px 0 0 46px;
+}
+
+.discount li:nth-child(2){
+	float: left;
+	font: 30px '微软雅黑';
+	color: #000;
+	margin: 50px 0 0 14px;
+}
+
+.discount li span{
+	color: #ff9344;
+}
+
+.discount li a{
+	color: #8e8e8e;
+}
+
+.discount li:last-child{
+	float: right;
+	font: 26px '微软雅黑';
+	margin: 50px 38px 0 0;
+}
+
+.people{
+	width:664px;
+	height:67px;
+	background-color: #ff9344;
+	margin:36px 0 0 45px;
+}
+
+.people a div{
+	font: 30px '微软雅黑';
+	color: white;
+	line-height: 67px;
+	text-indent: 11px;
+}
+
+.people span{
+	font-size: 37px;
+	margin-left: 500px;
+}
+
+/*case*/
+.link{
+	float:left;
+	margin:10px 0 0 45px;
+}
+
+.lay{
+	float: left;
+}
+
+.list li:first-child{
+	font:30px '微软雅黑';
+	color: #000;
+	margin:22px 0 0 26px;
+}
+
+.list li:nth-child(2){
+	margin:5px 0 0 26px;
+}
+
+.list span{
+	font:26px '微软雅黑';
+	color: #929292;
+	margin-left:13px;
+}
+
+.list li:nth-child(3){
+	font: 24px '微软雅黑';
+	color:#929292;
+	margin:5px 0 0 26px;
+
+}
+
+.list li:last-child{
+	margin:10px 0 0 26px;
+}
+
+.list li a{
+	font: 20px '微软雅黑';
+	color:#ff9344;
+}
+
+.love{
+	float:right;
+	margin:77px 36px 0 0;
+}
+
+.love button{
+	width:110px;
+	height:59px;
+	font: 30px '微软雅黑';
+	color: white; 
+	
+	background-color: #ff9344;
+	border:2px solid #ff9344;
+	border-radius: 15px;
+}
+
+
+/*box*/
+.box{
+	width:100%;
+	height:140px;
+}
+
+
+/* nav */
+nav{
+	position: fixed;
+	bottom:0%;
+	background:#ffffff;
+	padding:10px 0;
+}
+nav a{
+	float:left;
+	text-align: center;
+	width:187px; 
+	font:26px '微软雅黑';
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,183 @@
+.logo{
+	float:left;
+	margin:48px 0px 9px 23px;
+}
+
+.logo button{
+	
+	width:123px;
+	height:57px;
+	font: 26px '微软雅黑'; 
+	
+	background-color: white;
+	border:2px solid #ff9344;
+	border-radius: 15px;
+}
+
+.search{
+	float:left;
+	font:26px '微软雅黑';
+	margin:60px 0 0 178px;
+}
+
+header{
+	z-index: 9999;
+}
+
+
+.city{
+	float:right;
+	width:158px;
+	height:54px;
+	z-index: 2111;
+	text-indent:-25px;
+	border:2px solid #ff9344;
+	border-radius:2px;
+	margin:47px 21px 42px 0px;
+	background:url(../images/city-bg.png) no-repeat 92% 65%;
+	position: relative;
+}
+
+.city ul{
+	position: absolute;
+	top: 53px;
+	left: 0;
+}
+
+.city span{
+	font:26px '微软雅黑';
+	color:#000;
+	width:158px;
+	height:54px;
+	line-height: 54px;
+}
+
+.city li{
+	font:26px '微软雅黑';
+	color:#000;
+	width:158px;
+	height:54px;
+	line-height: 54px;
+	z-index: 1111;
+	border: 2px solid #ff9344;
+	border-radius: 2px;
+	background-color: #fff;
+	position: relative;
+}
+
+
+/*banner*/
+
+.kslider .banner{
+	margin-left: 10px;
+}
+
+.kslider .banner li{
+	float:left;
+	text-align: center;
+	margin:10px 17px 0 17px;
+	
+}
+
+.kslider .banner li a{
+	font: 26px '微软雅黑';
+	color:#000;
+}
+
+
+
+
+/*discount*/
+.discount-nav{
+	margin-left:21px;
+}
+
+.discount-nav li{
+	float:left;
+	height:54px;
+	font:30px/54px '微软雅黑';
+	color: #000;
+}
+
+.discount-nav li:nth-child(2){
+	text-indent:9px;
+}
+
+.discount-nav li:last-child{
+	float:right;
+}
+
+.more {
+	color:#000;
+	font:24px '微软雅黑';
+	background:url(../images/more.png) no-repeat right center;
+	padding-right:30px;
+	margin-right:21px;
+}
+
+/*activity*/
+.activity li{
+	float:left;
+	margin: 38px 32px 65px 23px;
+}
+
+.box{
+	width:100%;
+	height:140px;
+}
+
+
+/* nav */
+nav{
+	position: fixed;
+	bottom:0%;
+	background:#ffffff;
+	padding:10px 0;
+}
+nav a{
+	float:left;
+	text-align: center;
+	width:187px; 
+	font:26px '微软雅黑';
+	color:#000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

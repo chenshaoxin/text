@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>我的</title>
+	<meta name="viewport" content="width=750,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="./style/reset.css" />
+	<link rel="stylesheet" href="./style/style.css" />
+	<link rel="stylesheet" href="./style/mine.css" />
+	<script type="text/javascript">
+		(function (doc, win) {
+		    var docEl = doc.documentElement,
+		        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		        recalc = function () {
+		            var clientWidth = docEl.clientWidth;
+		            if (!clientWidth) return;
+		            if (clientWidth>=750) {
+		            	 // docEl.style.fontSize ='100px';
+		            }else{
+		            	docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+		            } 
+		        };
+		    // Abort if browser does not support addEventListener
+		    if (!doc.addEventListener) return;
+		    win.addEventListener(resizeEvt, recalc, false);
+		    doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
+</head>
+<body>
+	<div class="body">
+		<header>
+			<div class="logo">
+				<a href="index.html"><button>Back</button></a>
+			</div>
+
+			<div class="center">
+				我的
+			</div>
+
+			<div class="pic">
+				<a href=""><img src="./images/mail.png" alt="图片"></a>
+			</div>
+
+			<div class="clearfix"></div>
+		</header>
+
+		<section>
+			<ul class="banner">
+				<li>
+					<a href="#"><img src="./images/touxiang.png" alt="图片"></a>
+				</li>
+				<li>
+					<a href="#">点击登录</a><br/>
+					<span>常居地未设置</span>
+				</li>
+				<li><a href="#"><img src="./images/hao.png" alt="图片"></a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</section>
+
+		<section>
+			<ul class="discount">
+				<li>
+					<a href="#"><div>
+						<p>我的点评</p>
+					</div></a>
+				</li>
+				<li>
+					<a href="#"><div>
+						<p>我的收藏</p>
+					</div></a>
+				</li>
+				<li>
+					<a href="#"><div>
+						<p>我的优惠券</p>
+					</div></a>
+				</li>
+			</ul>
+			<div class="clearfix"></div>
+		</section>
+
+		<section>
+			<ul class="list1">
+				<li>
+					<img src="./images/qianbao.png" alt="图片">
+				</li>
+				<li>我的钱包</li>
+				<li><a href="#" class="more">更多</a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="list2">
+				<li>
+					<img src="./images/dai.png" alt="图片">
+				</li>
+				<li class="love">待点评</li>
+				<li><a href="#" class="more">更多</a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="list3">
+				<li>
+					<img src="./images/zhao.png" alt="图片">
+				</li>
+				<li>找好友</li>
+				<li><a href="#" class="more">更多</a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="list4">
+				<li>
+					<img src="./images/zuji.png" alt="图片">
+				</li>
+				<li>我的足迹</li>
+				<li><a href="#" class="more">更多</a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="list5">
+				<li>
+					<img src="./images/she.png" alt="图片">
+				</li>
+				<li>设置</li>
+				<li><a href="#" class="more">更多</a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="list6">
+				<li>
+					<img src="./images/lian.png" alt="图片">
+				</li>
+				<li>联系</li>
+				<li><a href="#" class="more">更多</a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</section>
+
+		<section>
+			<div class="end1">
+				<button>退出</button>
+			</div>
+			<div class="end2">
+				<button>注销</button>
+			</div>
+			<div class="clearfix"></div>
+		</section>
+
+		<div class="box"></div>
+
+
+		<nav>
+			<a href="index.html">
+				<img src="./images/index_out.png" /><br />
+				首页
+			</a>
+			<a href="assortment.html">
+				<img src="./images/assortment_out.png" /><br />
+				分类
+			</a>
+			<a href="discovery.html">
+				<img src="./images/discovery_out.png" /><br />
+				发现
+			</a>
+			<a href="mine.html">
+				<img src="./images/mine_in.png" /><br />
+				我的
+			</a>
+		</nav>
+
+
+	</div>
+</body>
+</html>

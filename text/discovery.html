@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>发现</title>
+	<meta name="viewport" content="width=750,maximum-scale=1.0,user-scalable=no">
+	<link rel="stylesheet" href="./style/reset.css" />
+	<link rel="stylesheet" href="./style/style.css" />
+	<link rel="stylesheet" href="./style/discovery.css" />
+	<script type="text/javascript">
+		(function (doc, win) {
+		    var docEl = doc.documentElement,
+		        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+		        recalc = function () {
+		            var clientWidth = docEl.clientWidth;
+		            if (!clientWidth) return;
+		            if (clientWidth>=750) {
+		            	 // docEl.style.fontSize ='100px';
+		            }else{
+		            	docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+		            } 
+		        };
+		    // Abort if browser does not support addEventListener
+		    if (!doc.addEventListener) return;
+		    win.addEventListener(resizeEvt, recalc, false);
+		    doc.addEventListener('DOMContentLoaded', recalc, false);
+		})(document, window);
+	</script>
+</head>
+<body>
+	<div class="body">
+		<header>
+			<div class="logo">
+				<a href="index.html"><button>Back</button></a>
+			</div>
+
+			<div class="center">
+				发现
+			</div>
+
+			<div class="city">
+				<img class="city-bg" src="./images/city-bg.png" alt="">
+				<select class="city_name">
+					<option>广州市</option>
+					<option>北京市</option>
+					<option>深圳市</option>
+					<option>天津市</option>
+					<option>珠海市</option>
+
+				</select>
+			</div>
+
+			<div class="clearfix"></div>
+		</header>
+
+
+		<div class="search">
+			<input type="search" value="" placeholder="请输入商品名称" />
+		</div>
+		<div class="clearfix"></div>
+
+
+		<div class="our">
+			<h3>大家都在搜</h3>
+			<ul class="list">
+				<li><a href="#"><div>寿司</div></a></li>
+				<li><a href="#"><div>羽毛球</div></a></li>
+				<li><a href="#"><div>火锅</div></a></li>
+				<li><a href="#"><div>游泳馆</div></a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="list">
+				<li><a href="#"><div>电影</div></a></li>
+				<li><a href="#"><div>周黑鸭</div></a></li>
+				<li><a href="#"><div>KTV</div></a></li>
+				<li><a href="#"><div>肯德基</div></a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</div>
+			
+		<section class="discount">
+			<ul class="discount-nav">
+				<li><img src="./images/hot.png" /></li>
+				<li>热门搜索</li>
+				<li><a href="#" class="more">更多</a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="activity">
+				<li><a href="#"><img src="./images/hot1.png" /></a></li>
+				<li><a href="#"><img src="./images/hot2.png" /></a></li>
+				<li><a href="#"><img src="./images/hot3.png" /></a></li>
+				<li><a href="#"><img src="./images/hot4.png" /></a></li>
+			</ul>
+			<div class="clearfix"></div>
+		</section>
+
+	<section class="discount">
+			<ul class="discount-nav">
+				<li><img src="./images/tui.png" /></li>
+				<li>推荐搜索</li>
+				<li><a href="#" class="more">更多</a></li>
+			</ul>
+			<div class="clearfix"></div>
+			<ul class="lay">
+				<li><a href="#"><img src="./images/tuijian1.png" /></a></li>
+				<li><a href="#"><img src="./images/tuijian.png" /></a></li>
+				<li><a href="#"><img src="./images/tuijian3.png" /></a></li>
+	</section>
+
+		<nav>
+			<a href="index.html">
+				<img src="./images/index_out.png" /><br />
+				首页
+			</a>
+			<a href="assortment.html">
+				<img src="./images/assortment_out.png" /><br />
+				分类
+			</a>
+			<a href="discovery.html">
+				<img src="./images/discovery_in.png" /><br />
+				发现
+			</a>
+			<a href="mine.html">
+				<img src="./images/mine_out.png" /><br />
+				我的
+			</a>
+		</nav>
+
+
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
